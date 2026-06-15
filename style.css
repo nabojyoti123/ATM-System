@@ -1,0 +1,22 @@
+body {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+} /*the body part display flex */
+#atm {
+  /* Select the element whose id is "atm" */
+  width: 300px; /*div container inside the body that id is atm ,Make the box 300 pixels wide*/
+  border: 2px solid black; /*Border draws a line around the content and padding*/
+  padding: 20px; /*Padding creates space INSIDE the border. */
+  /*The content area will be 300 pixels wide.*/
+  margin: 0 auto;
+}
+/*Think:
++-----------------------+
+|       Content         |
++-----------------------+
+
+The width controls this area.
+the outline is the border 
+|----350----|[DIV]|----350----|
+*/
